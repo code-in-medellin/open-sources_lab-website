@@ -1,0 +1,10 @@
+#Please use the main menu items under the "text"
+
+- text: Home
+  url: /
+- text: About
+  url: /pages/about
+- text: Blog
+  url: https://quantrack.github.io
+- text: Quantrack CB
+  url: https://quantrack.io
