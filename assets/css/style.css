@@ -1,6 +1,6 @@
 /*--------------------------------------------------------------------------
 /*--------------------------------------------------------------------------
-Template name:  quantracklab - Hosting Template
+Template name:  quantracklab Hosting Template
 Template URI: https://themeforest.net/user
 Author name: Themeix
 Author URI: https://themeforest.net/user
@@ -1749,7 +1749,7 @@ ul.slimmenu li a {
 }
 
 .service-box .service-logo1 {
-	background: url('../images/css_sprites.png') -10px -10px;
+	background: url('../images/github.png') -10px -10px;
 }
 
 .service-box:hover .service-logo1 {
@@ -1757,11 +1757,11 @@ ul.slimmenu li a {
 }
 
 .service-box .service-logo2 {
-	background: url('../images/css_sprites.png') -200px -10px;
+	background: url('../images/github.png') -200px -6px;
 }
 
 .service-box:hover .service-logo2 {
-	background: url('../images/css_sprites.png') -10px -137px;
+	background: url('../images/github.png') -200px -6px;
 }
 
 .service-box .service-logo3 {
@@ -1769,7 +1769,7 @@ ul.slimmenu li a {
 }
 
 .service-box:hover .service-logo3 {
-	background: url('../images/css_sprites.png') -133px -137px;
+	background: url('../images/css_sprites.png') -68px -137px;
 }
 
 .service-box .service-logo4 {
@@ -1777,7 +1777,7 @@ ul.slimmenu li a {
 }
 
 .service-box:hover .service-logo4 {
-	background: url('../images/css_sprites.png') -138px -72px;
+	background: url('../images/css_sprites.png') -138px -10px;
 }
 
 .service-box .service-logo5 {
