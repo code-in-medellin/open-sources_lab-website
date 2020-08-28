@@ -2,8 +2,6 @@
 
 - text: Home
   url: /
-- text: About
-  url: /pages/about
 - text: Blog
   url: https://quantrack.github.io
 - text: Quantrack CB
