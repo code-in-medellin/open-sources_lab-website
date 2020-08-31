@@ -3,7 +3,7 @@
     "use strict";
 
     /* ==========================================
-          2.    Preloader 
+          2.    Preloader
     ========================================== */
     if ($('.loader-wrapper').length > 0) {
         $(window).on('load', function() {
@@ -13,10 +13,10 @@
                 'overflow-y': 'scroll'
             });
         });
-    }	
+    }
 
     /* ==========================================
-          2.    Search popup 
+          2.    Search popup
     ========================================== */
 
     $(".search-popup-icon").on('click',  function() {
@@ -33,11 +33,11 @@
       });
 
     /* ==========================================
-          2.    banner-slider   
+          2.    banner-slider
     ========================================== */
     if ( $('.mainSlider').length ) {
         $('.mainSlider').nivoSlider({
-            manualAdvance: false,  
+            manualAdvance: false,
             directionNav: true,
             animSpeed: 500,
             slices: 18,
@@ -73,10 +73,10 @@
 					items:1
 				},
 			}
-		});    		
+		});
 	}
     /* ==========================================
-          2.    testimonial-slider   
+          2.    testimonial-slider
     ========================================== */
 
  $('.testimonial-slider').slick({
@@ -89,7 +89,7 @@
   fade: false,
   });
     /* ==========================================
-          2.    shop product slider   
+          2.    shop product slider
     ========================================== */
 
 
@@ -127,9 +127,9 @@ $('.shop-product-slider').slick({
     }
   ]
 });
-    
+
     /* ==========================================
-          2.    Modal Popup   
+          2.    Modal Popup
     ========================================== */
 	$('#cart-popup').apFullscreenModal({
 		openSelector: '#cart-popup-open',
@@ -138,7 +138,7 @@ $('.shop-product-slider').slick({
 	});
 
     /* ==========================================
-          2.    Scollup   
+          2.    scrollup   
     ========================================== */
     var offset = 300,
     offset_opacity = 1200,
@@ -158,32 +158,32 @@ $('.shop-product-slider').slick({
 
 
 	$(".hide-shop-close").on("click", function(){
-		
+
 		$(this).parents(".hide-shop-item").fadeOut();
 	});
     /*=============================================
         8. Paralax Active JS
     ===============================================*/
-   
+
     $('.slimmenu').slimmenu({
         resizeWidth: '992',
         collapserTitle: 'Main Menu',
         animSpeed: 'medium',
         indentChildren: true,
-    });  
-  
+    });
+
 	/*=============================================
         8. Active WoW JS
     ===============================================*/
 
     new WOW().init();
-	
-	
-	
+
+
+
 	/*=============================================
         8. Shop Thumbnail Slider Slick
     ===============================================*/
-	
+
 	if ( $('.shop-thumbnail-big').length ) {
         var $slider = $('.shop-thumbnail-big')
             .on('init', function(slick) {
@@ -222,7 +222,7 @@ $('.shop-product-slider').slick({
  	$('.shop-thumbnail-small .slick-slide').removeClass('slick-active');
  	$('.shop-thumbnail-small .slick-slide').eq(mySlideNumber).addClass('slick-active');
 });
-  
+
 $(['js-sliderWithProgressbar'], function(slider) {
 
     $('.shop-thumbnail-big').each(function() {
@@ -254,7 +254,7 @@ var previewSliderOptions = {
 }
 }
 
-	
-	
+
+
 
 })(jQuery);
